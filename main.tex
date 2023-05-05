@@ -1,0 +1,57 @@
+\documentclass[conference]{IEEEtran}
+
+%% DOCUMENT FORMATTING
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage{geometry}
+
+%% Hyperlinks
+\usepackage{hyperref}
+
+%% GRAPHICS
+\usepackage{graphicx}
+
+% CITATION
+\usepackage{acronym}
+
+\usepackage[style=ieee, maxcitenames=2, mincitenames=1]{biblatex}
+\addbibresource{sources.bib}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+\pagenumbering{Roman} 
+
+\title{Generatives KI-Design\\
+\large \ \\ \large Eine Untersuchung der Grenzen und Möglickeiten}
+
+\author{
+  \IEEEauthorblockN{Alexandros Loukaridis}
+  \IEEEauthorblockA{\textit{MatNr. 1000730} \\
+  92loal1bif@hft-stuttgart.de}
+
+  \and
+
+  \IEEEauthorblockN{Valentin Franco}
+  \IEEEauthorblockA{\textit{MatNr. 380094} \\
+  01frva1bif@hft-stuttgart.de}
+}
+
+\maketitle
+
+\input{./chapters/01_Abstract.tex}
+
+\section{Einleitung}
+\input{./chapters/02_Einleitung.tex}
+
+\listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichniss}
+
+\section*{Abkürzungsverzeichnis}
+\input{./chapters/Abkuerzungen.tex}
+
+\section*{Literaturverzeichnis}
+\printbibliography[heading=none]{}
+
+\end{document}
