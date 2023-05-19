@@ -40,4 +40,4 @@ VI. Diskussion und Fazit
 
 VII. Literaturverzeichnis
 
-Das Zentrale Ziel der Seminararbeit: Die Untersuchung der Grenzen und Möglichkeiten von generativen KI-Design
+Forschungsfrage: Wie beeinflusst generatives Design die kreativen Gestaltungsprozesse in der Designbranche ?
