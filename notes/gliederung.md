@@ -10,7 +10,8 @@
 - Krititische Bewertung von KI in g. D.
     - Fallbeispiel 1: Nike FlyPrint Schuh (generatives KI-Design tool von Firma Autodesk) 
     - Fallbeispiel 2: 
-    - Vor- und Nachteile von g. D. mit KI
+    - Positive Aspekte
+    - Negative Aspekte
 - Zukunftsperspektiven und Fazit
 - Literaturverzeichnis
 
