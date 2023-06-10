@@ -17,12 +17,16 @@
 \usepackage[style=ieee, maxcitenames=2, mincitenames=1]{biblatex}
 \addbibresource{sources.bib}
 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
 
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+\def\BibTeX{{\rmfamily B\kern-.05em{\scshape i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-\begin{document}
-\pagenumbering{Roman} 
 
+\begin{document}
 \title{Generatives KI-Design\\
 \large \ \\ \large Wie beeinflusst generatives Design die kreativen Gestaltungsprozesse in der Designbranche?}
 
@@ -39,6 +43,11 @@
 }
 
 \maketitle
+
+\thispagestyle{plain} % Seitennummerierung für das Titelblatt
+\pagestyle{plain} % Seitennummerierung für die restlichen Seiten
+\pagenumbering{roman} % Seitennummerierung mit römischen Zahlen
+\setcounter{page}{1} % Setzt die Seitennummerierung auf 1
 
 \input{./chapters/01_Abstract.tex}
 
@@ -60,9 +69,12 @@
 \section{Fazit}
 \input{./chapters/07_Fazit.tex}
 
+\clearpage
+\pagenumbering{arabic} % Seitennummerierung mit arabischen Zahlen
+\setcounter{page}{1} % Setzt die Seitennummerierung auf 1
 
 \listoffigures
-\addcontentsline{toc}{section}{Abbildungsverzeichniss}
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
 \section*{Abkürzungsverzeichnis}
 \input{./chapters/Abkuerzungen.tex}
