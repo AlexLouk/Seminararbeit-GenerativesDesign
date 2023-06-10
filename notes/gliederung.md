@@ -8,7 +8,8 @@ I. Einleitung
 II. Grundlagen des Generativen Designs
    A. Definition und Konzepte des Generativen Designs
    B. Historischer Überblick
-   C. Anwendungsgebiete des Generativen Designs
+   C. Vorteile und Potenziale des Generativen Designs
+
 
 III. Methoden des Generativen Designs (Methoden werden kurz erklärt wegen der Anzahl)
    A. Parametrisches Design
