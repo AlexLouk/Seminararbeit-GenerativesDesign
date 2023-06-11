@@ -1,16 +1,14 @@
 \subsection*{Anwendungen in Branchen}
-Architektur: Generatives Design wird in der Architektur eingesetzt, um innovative Gebäudestrukturen zu entwerfen. Durch die Verwendung von algorithmischen Methoden und parametrischen Modellen können Architekten komplexe und effiziente Gebäudekonzepte entwickeln. Das Generative Design ermöglicht es, verschiedene Parameter wie Materialverbrauch, Energieeffizienz und Raumoptimierung zu berücksichtigen und so nachhaltige Architektur zu fördern.
+Das generative Design nimmt Einfluss in vielen verschiedenen Branchen. Darunterfallen Architektur, Automobilindustrie, Mode und Textilien, Produktgestaltung, Kunst und Design, Film und Animation, Werbung und Marketing, Spieleentwicklung, Medizin und Gesundheitswesen, Ingenieurwesen und Fertigung. Hier wird auf 3 genauer eingegangen.
+Architektur: Generatives Design wird in der Architektur eingesetzt, um Gebäudestrukturen zu entwerfen. Durch die Verwendung von algorithmischen Methoden und parametrischen Modellen können Architekten komplexe und effiziente Konzepte entwickeln. Das Generative Design beeinflusst hier Parameter wie Materialverbrauch, Energieeffizienz und Raumoptimierung. 
 
-Produktgestaltung: Im Bereich der Produktgestaltung eröffnet das Generative Design neue Möglichkeiten zur Entwicklung maßgeschneiderter und funktional optimierter Produkte. Durch den Einsatz von Algorithmen und automatisierten Prozessen können Designer Variationen von Produkten generieren und diese an individuelle Kundenanforderungen anpassen. Dadurch können einzigartige und effiziente Produkte mit verbesserten Leistungsmerkmalen geschaffen werden.
+Produktgestaltung: In diesem Bereich eröffnet das generative Design neue Möglichkeiten zur Entwicklung maßgeschneiderter und funktional optimierte Produkte. Durch den Einsatz von Algorithmen und automatisierten Prozessen können Designer Variationen von Produkten generieren und diese an individuelle Kundenanforderungen anpassen. So können einzigartige Produkte mit verbesserten Leistungsmerkmalen geschaffen werden. 
 
-Automobilindustrie: In der Automobilindustrie wird das Generative Design verwendet, um leichtere und dennoch stabile Fahrzeugkomponenten zu entwickeln. Durch die Integration von algorithmischen Optimierungsmethoden können Ingenieure komplexe Strukturen gestalten, die mit herkömmlichen Designansätzen schwer umzusetzen wären. Das Ergebnis sind Fahrzeugkomponenten, die sowohl Gewicht einsparen als auch die Fahrzeugleistung verbessern, beispielsweise durch bessere Aerodynamik oder höhere strukturelle Festigkeit.
-
+Automobilindustrie: In der Automobilindustrie wird das Generative Design verwendet, um leichtere und dennoch stabile Fahrzeugkomponenten zu entwickeln. Durch die Integration von algorithmischen Optimierungsmethoden können Ingenieure komplexe Strukturen gestalten, die mit herkömmlichen Ansätzen schwer umzusetzen wären. Das Ergebnis sind Fahrzeugkomponenten, die Gewicht einsparen und dadurch die Fahrzeugleistung verbessern. Selbes gilt für Aerodynamik und Festigkeit. \autocite*{8} \autocite{9}
 \subsection*{Generativ Design Software von Autodesk und Ablauf}
 
-Generative Design \ac*{gD} Tools werden zunehmend in verschiedenen technischen Bereichen eingesetzt. Dabei handelt es sich um Softwaretools, die künstliche Intelligenz (KI) Methoden und Algorithmen verwenden, um Designprobleme zu lösen. Ein Unternehmen, das sich stark auf die Entwicklung solcher \ac*{gD}-Tools und deren Integration in herkömmliche \ac*{CAD}-Umgebungen konzentriert hat, ist Autodesk. Autodesk hat das Projekt "Dreamcatcher" gestartet, das sich seit 2014 der Entwicklung von \ac*{gD}-Tools widmet. Nach fünf Jahren Entwicklung wurde die erste Version der kommerziellen \ac*{gD}-Software veröffentlicht. Das \ac*{gD}-Tool von Autodesk heißt "Generative Design" und ist in Fusion 360, einem parametrischen \ac*{CAD}-Modellierer, integriert. 
-
-Generative Design von Autodesk ermöglicht die Optimierung der Form eines Bauteils, um statische strukturelle Belastungen zu erfüllen. Cloud-Computing-Funktionen werden genutzt, um mehrere Finite-Elemente-Analysen durchzuführen und ein akzeptables Ergebnis innerhalb einer akzeptablen Zeitspanne zu erhalten. Im Gegensatz zur Topologieoptimierung erfordert Generative Design weniger Anpassungen und Einrichtungsphasen und ist somit für eine breitere Anwendung zugänglich. Dennoch erfordert die bewusste Anwendung von \ac*{gD}-Tools bestimmte Fähigkeiten, die derzeit noch nicht vollständig entwickelt und weit verbreitet sind. 
-
+Generative Design \ac*{gD} Tools werden zunehmend in verschiedenen technischen Bereichen eingesetzt. Dabei handelt es sich um Software, die verschiedene Ansätze verwenden um Designprobleme/-anforderungen zu lösen. Ein Unternehmen, das sich stark auf die Entwicklung solcher \ac*{gD}-Tools und deren Integration in herkömmliche \ac*{CAD}-Umgebungen konzentriert hat, ist Autodesk. Autodesk hat das Projekt "Dreamcatcher" gestartet, dass sich seit 2014 der Entwicklung von \ac*{gD}-Tools widmet. Nach fünf Jahren Entwicklung wurde die erste Version der kommerziellen \ac*{gD}-Software veröffentlicht. Das \ac*{gD}-Tool von Autodesk heißt "Generative Design" und ist in Fusion 360, einer \ac*{CAD}-Software, integriert.
+Autodesk Generative Design bietet verschiedene Phasen im Arbeitsablauf, darunter:
 
 
 \begin{figure}[h]
@@ -22,34 +20,18 @@ Generative Design von Autodesk ermöglicht die Optimierung der Form eines Bautei
     \label{fig:meinbild}
   \end{figure}
   
-
-Autodesk Generative Design bietet verschiedene Phasen im Arbeitsablauf, darunter:
-
-1. Ziele: Der Benutzer kann zwischen zwei Optionen wählen, entweder die Masse zu minimieren oder die Steifigkeit zu maximieren. In beiden Fällen wird ein Sicherheitsfaktor benötigt. Bei Auswahl der zweiten Option muss der Benutzer auch eine Zielmasse angeben, die die Optimierung erreichen soll.
-
-2. Geometrie: Der Benutzer definiert die Bereiche, die von der Optimierung unverändert bleiben sollen (Erhaltungsbereiche) und die Bereiche, die leer bleiben müssen (Hindernisbereiche). Im Gegensatz zum klassischen Ansatz der Topologieoptimierung erfordert Generative Design keine Definition eines Ausgangsvolumens (Designraum), das schrittweise ausgehöhlt wird. Die Optimierung kann mit einer plausiblen Ausgangsform (Starting Shape) gestartet werden, was jedoch optional ist.
-
-3. Lastfälle: Generative Design unterstützt Kräfte, Drücke und Lagerlasten. Es können auch die Schwerkraft berücksichtigt werden. Verfügbar sind festgelegte, festgeklemmte und reibungsfreie Einschränkungen. Mehrere Lastfälle können vom Solver berücksichtigt werden, jedoch können keine dynamischen Bedingungen eingeführt werden. Alle Lasten und Einschränkungen müssen auf die Erhaltungsbereiche angewendet werden.
-
-4. Fertigungsbeschränkungen: Der Benutzer kann Fertigungsbeschränkungen angeben, um die Optimierung auf Formen auszurichten, die mit einem bestimmten Herstellungsprozess (Additive Fertigung, 5-Achs-Fräsen, 3-Achs-Fräsen) hergestellt werden können, um die Produktionskosten für die Bauteil
-
-fertigung zu reduzieren.
-
-5. Material: Derzeit können nur linear-elastische Modelle verwendet werden. Generative Design ermöglicht jedoch die gleichzeitige Auswahl von bis zu zehn Materialien in einer einzigen Analyse.
-
-6. Eingabeprüfung und Berechnung: Generative Design überprüft, ob alle erforderlichen Informationen vorhanden sind. Wenn dies der Fall ist, werden die Optimierung und die Analysen auf externen Servern mithilfe von Cloud-Computing durchgeführt, nachdem eine festgelegte Gebühr (Cloud-Credits) bezahlt wurde.
-
-7. Ergebnisse: Sobald die Ergebnisse auf dem lokalen Computer heruntergeladen sind, stehen sie dem Benutzer zur Verfügung. Die Ergebnisse können nach mechanischen und physikalischen Eigenschaften dargestellt werden.
-
-8. Exploration: Generative Design bietet eine dedizierte Umgebung mit Visualisierungswerkzeugen, um die Ergebnisse geordnet darzustellen und dem Benutzer bei der Identifizierung der besten Lösung zu helfen.
-
-9. Auswahl: Der Benutzer wählt das Design aus, das am besten zu den gewünschten Anforderungen passt, und exportiert es aus der Visualisierungsumgebung.
-
-10. Export: Das Design wird isoliert und für weitere Änderungen für den Benutzer verfügbar gemacht. Die \ac*{CAD}-Geometrie des Teils wird in die Modellierungsumgebung von Fusion 360 importiert. Für den Export von Designs aus der Visualisierungsumgebung fallen zusätzliche Kosten an.
-
-11. Modifikation: Nach dem Export des Designs muss es mit herkömmlichen \ac*{CAD}-Tools bearbeitet werden, um Fehler zu beheben, die typischerweise in komplexen Formen mit mehreren B-REP-Oberflächen auftreten. Dies ist auch bei Topologieoptimierungen erforderlich, bei denen die tessellierten Formen, die durch die Optimierung erzeugt werden, bearbeitet und optimiert werden müssen, um die Fertigung zu ermöglichen.
-
-12. Validierung: Die Leistungsfähigkeit der exportierten Form muss durch zusätzliche Finite-Elemente-Analysen validiert werden, um die endgültigen mechanischen Eigenschaften des Teils zu bewerten.
+  1.	Ziele: Der Benutzer kann zwischen zwei Optionen wählen, entweder die Masse zu minimieren oder die Steifigkeit zu maximieren. In beiden Fällen wird ein Sicherheitsfaktor benötigt. Bei Auswahl der zweiten Option muss der Anwender auch eine Zielmasse angeben, die die Optimierung erreichen soll.
+  2.	Geometrie: Der Benutzer definierte die Bereiche, die von der Optimierung verschont bleiben sollen (Erhaltungsbereiche) und die Bereiche, die leer bleiben müssen (Hindernisbereich). 
+  3.	Lastfälle: Generative Design unterstütz Kräfte, Druck und Lagerlast. Es kann auch die Schwerkraft berücksichtigen. Die Lasten müssen auf die vorher erstellten Erhaltungsbereiche angewandt werden. 
+  4.	Fertigungsbeschränkungen: Der Benutzer kann Fertigungsbeschränkungen angeben, um die Fertigung später zu erleichtern (5-Achs-Fräsen, 4-Achs-Fräsen). Dies spart Produktionskosten ein.
+  5.	Material: Generativ Design ermöglicht die Auswahl von bis zu zehn verschiedenen Materialien in einer Analyse. 
+  6.	Eingabeprüfung und Berechnung: Generative Design überprüft, ob alle erforderlichen Informationen korrekt sind. Wenn ja, werden die Optimierungen auf externen Servern durchgeführt. 
+  7.	Ergebnisse: Sobald die Ergebnisse auf dem lokalen Computer heruntergeladen sind, können diese Visualisiert werden. 
+  8.	Exploration: Generative Design bietet eine dedizierte Umgebung mit Visualiserungswerkzeugen, um die Ergebnisse geordnet darzustellen. Das hilft bei der Identifizierung der besten Lösung.
+  9.	Auswahl: Der Anwender wählt die Lösung aus, die am besten den gewünschten Anforderungen entspricht und exportiert diese.
+  10.	Export: das Designt wird isoliert und für weitere Änderungen verfügbar gemacht. \ac*{CAD}-Geometrie des Teils wird in die Modellierungsumgebung von Fusion 360 importiert.
+  11.	Modifikation: Nach dem Export der Lösung, muss es mit herkömmlichen \ac*{CAD}-Tools bearbeitet werden, um Fehler zu beheben.
+  12.	Validierung: Die Leistungsfähigkeit der exportierten Form muss durch zusätzliche Finite-Elemente-Analysen validiert werden. \autocite*{7}
 
 \subsection*{Fallbeispiel Heydar Aliyev Centre}
 Für das Heydar Aliyev Centre wurde die Software Rhino 3D verwendet. Rhino ist eine 3D-Modellierungssoftware, die sich durch ihre Vielseitigkeit und ihre Fähigkeit zur Generierung komplexer Formen auszeichnet.
@@ -63,12 +45,8 @@ Für das Heydar Aliyev Centre wurde die Software Rhino 3D verwendet. Rhino ist e
     \label{fig:meinbild}
   \end{figure}
 m
-  Das Heydar Aliyev Centre in Baku ist ein architektonisches Meisterwerk von Zaha Hadid. Es vereint Kunst, Kultur und Geschichte und beeindruckt mit seinen fließenden Formen und innovativen Raumgestaltungen.
-
-  Bei der Gestaltung wurde generatives Design verwendet, um die organischen Kurven und fließenden Formen des Gebäudes zu schaffen. Durch den Einsatz von computergesteuerten Algorithmen konnte das Design-Team verschiedene Parameter und Kriterien festlegen, wie beispielsweise Raumfunktionen, Nutzungsanforderungen, ästhetische Präferenzen und strukturelle Stabilität.
-
-  Basierend auf diesen Parametern konnte das System unzählige mögliche Designs generieren und bewerten. Dabei wurden Aspekte wie räumliche Effizienz, natürliche Belichtung, Zugänglichkeit und visuelle Harmonie berücksichtigt. Das generative Design ermöglichte es den Architekten, schnell eine Vielzahl von Variationen zu erforschen und diejenigen auszuwählen, die am besten den Anforderungen entsprachen.
-  
-  Das Ergebnis war ein einzigartiges und faszinierendes architektonisches Konzept, das ohne den Einsatz von generativem Design möglicherweise nicht realisierbar gewesen wäre. Das Heydar Aliyev Centre zeigt, wie computergesteuerte Designmethoden neue Horizonte eröffnen und zu außergewöhnlichen architektonischen Kreationen führen können.
-  
-  Generatives Design hat nicht nur zur Schaffung eines ikonischen Gebäudes beigetragen, sondern es hat auch die Effizienz und Nachhaltigkeit des Designs verbessert. Durch die Berücksichtigung von Faktoren wie Energieeffizienz und optimierte Raumnutzung konnte das Heydar Aliyev Centre eine umweltfreundliche und ressourcenschonende Architektur realisieren.
+Das Heydar Aliyev Centre in Baku, Aserbaidschan ist ein architektonisches Meisterwerk von Zaha Hadid. Es vereint Kunst, Kultur und Geschichte und beeindruckt mit seinen fließenden Formen und der innovativen Raumgestaltung. 
+Bei der Gestaltung wurde generatives Design verwendet, um die organischen Kurven und fließenden Formen des Gebäudes zu schaffen. Das Design-Team legte verschiedene Parameter und Kriterien fest wie beispielsweise Raumfunktionen, Nutzungsanforderungen, ästhetische Präferenzen und strukturelle Stabilität. 
+Basierend auf diesen Parametern konnte das System unzählige mögliche Designs generieren. Dabei wurden Aspekte wie räumliche Effizienz, natürliche Belichtung, Zugänglichkeit und visuelle Harmonie berücksichtigt. Das generative Design ermöglichte es den Architekten, schnell eine Vielzahl von Variationen zu erforschen und diejenige auszuwählen, die am besten den Anforderungen entsprachen. 
+Das Ergebnis ist ein einzigartiges und faszinierende architektonisches Konzept, das ohne den Einsatz von generativem Design vermutlich nicht realisierbar gewesen wäre. Dieses Bauwerk zeigt, wie computergesteuerte Designmethoden neue Horizonte eröffnen. 
+Generatives Design hat nicht nur zur Schaffung eines ikonischen Gebäudes beigetragen, sondern es hat auch die Effizienz und Nachhaltigkeit des Designs verbessert. Durch die Berücksichtigung von Faktoren wie Energieeffizienz und optimierte Raumnutzung konnte das Heydar Aliyev Centre eine umweltfreundliche und ressourcenschonende Architektur realisieren. \autocite*{5}
