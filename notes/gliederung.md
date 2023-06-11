@@ -1,44 +1,32 @@
 Gliederung
 
-I. Einleitung
-   A. Problemstellung
-   B. Zielsetzung der Arbeit
-   C. Aufbau der Arbeit
+   A. Abstract
 
-II. Grundlagen des Generativen Designs
-   A. Definition und Konzepte des Generativen Designs
+I. Grundlagen des Generativen Designs
+   A. Definition des Generativen Designs
    B. Historischer Überblick
-   C. Vorteile und Potenziale des Generativen Designs
+   C. Potenziale des Generativen Designs
+   
+II. Methoden und Design Prozess
 
+   A. Methoden
+   B. Design Prozess (Grafik)
 
-III. Methoden des Generativen Designs (Methoden werden kurz erklärt wegen der Anzahl)
-   A. Parametrisches Design
-   B. Algorithmisches Design
-   C. Evolutionäre Algorithmen
-   D. Prozedurale Generierung
-   E. Simulation und Analyse
-   F. Machine Learning und Künstliche Intelligenz
-   G. Generative Algorithmen
-   H. Datengesteuertes Design
+III. Anwendungen
+   A. Anwendungen in Branchen
+   B. GD Software von Autodesk (Grafik ?)
+   C. Fallbeispiel aus der Architektur (Grafik)
 
-IV. Anwendungen des Generativen Designs (Welche Methode wird in welcher Anwendung genutzt - Mit Fallbeispielen)
-   A. Architektur und Bauwesen
-   B. Produktgestaltung
-   C. Grafikdesign und Kunst
-   D. Modedesign
-   E. Industriedesign
-   F. Medizin und Gesundheitswesen
-
-V. Herausforderungen und Zukunftsaussichten
+IV. Herausforderungen
    A. Ethische und rechtliche Aspekte
    B. Technologische Entwicklungen
-   C. Potenzial für Innovationen und kreative Lösungen
+   
 
-VI. Diskussion und Fazit
-   A. Zusammenfassung der Ergebnisse
-   B. Beantwortung der Forschungsfragen
-   C. Kritische Bewertung und Ausblick
+V. Fazit
+   A. Vor- und Nachteile
+   B. Beantwortung der Forschungsfrage
+   C. Fazit
 
-VII. Literaturverzeichnis
+VI. Literaturverzeichnis
 
 Forschungsfrage: Wie beeinflusst generatives Design die kreativen Gestaltungsprozesse in der Designbranche ?
