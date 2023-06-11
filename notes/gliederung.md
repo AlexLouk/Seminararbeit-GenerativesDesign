@@ -8,7 +8,6 @@ I. Grundlagen des Generativen Designs
    C. Potenziale des Generativen Designs
    
 II. Methoden und Design Prozess
-
    A. Methoden
    B. Design Prozess (Grafik)
 
@@ -20,7 +19,6 @@ III. Anwendungen
 IV. Herausforderungen
    A. Ethische und rechtliche Aspekte
    B. Technologische Entwicklungen
-   
 
 V. Fazit
    A. Vor- und Nachteile
